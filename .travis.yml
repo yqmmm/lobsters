@@ -14,7 +14,7 @@ before_script:
   - ./bin/rails db:schema:load
 script:
   - bundle exec rspec
-  - bundle exec rubocop
-  - bundle exec ruumba
-  - bundle leak update
-  - bundle leak check
+  # - bundle exec rubocop
+  # - bundle exec ruumba
+  # - bundle leak update
+  # - bundle leak check
